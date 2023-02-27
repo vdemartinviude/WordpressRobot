@@ -1,0 +1,60 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RobotOrchestrator", "RobotOrchestrator\RobotOrchestrator.csproj", "{6C0EC21A-6429-49B7-BD78-118B3E2209C8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WordpressStatesAndGuards", "WordpressStatesAndGuards\WordpressStatesAndGuards.csproj", "{8A2BFC8E-0ECC-47DC-9669-FA05076375FB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WebBotFramework", "WebBotFramework", "{1C17FD20-0CCE-43B2-9EBA-66910BD90697}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JsonDocumentsManager", "WebBotFramework\JsonDocumentsManager\JsonDocumentsManager.csproj", "{8B2FF13E-E0A8-4967-B6B4-934213D26964}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StatesAndEvents", "WebBotFramework\StatesAndEvents\StatesAndEvents.csproj", "{C8D7743B-A869-4029-8061-6E053B1CE3D2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TheRobot", "WebBotFramework\TheRobot\TheRobot.csproj", "{355159FB-5B4B-478C-A7C7-8576D0BEE955}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TheStateMachine", "WebBotFramework\TheStateMachine\TheStateMachine.csproj", "{DEAEE554-4838-478B-BC56-999C4A0E76E4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6C0EC21A-6429-49B7-BD78-118B3E2209C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C0EC21A-6429-49B7-BD78-118B3E2209C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C0EC21A-6429-49B7-BD78-118B3E2209C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C0EC21A-6429-49B7-BD78-118B3E2209C8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8A2BFC8E-0ECC-47DC-9669-FA05076375FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A2BFC8E-0ECC-47DC-9669-FA05076375FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A2BFC8E-0ECC-47DC-9669-FA05076375FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A2BFC8E-0ECC-47DC-9669-FA05076375FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8B2FF13E-E0A8-4967-B6B4-934213D26964}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B2FF13E-E0A8-4967-B6B4-934213D26964}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B2FF13E-E0A8-4967-B6B4-934213D26964}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B2FF13E-E0A8-4967-B6B4-934213D26964}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C8D7743B-A869-4029-8061-6E053B1CE3D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C8D7743B-A869-4029-8061-6E053B1CE3D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C8D7743B-A869-4029-8061-6E053B1CE3D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C8D7743B-A869-4029-8061-6E053B1CE3D2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{355159FB-5B4B-478C-A7C7-8576D0BEE955}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{355159FB-5B4B-478C-A7C7-8576D0BEE955}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{355159FB-5B4B-478C-A7C7-8576D0BEE955}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{355159FB-5B4B-478C-A7C7-8576D0BEE955}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DEAEE554-4838-478B-BC56-999C4A0E76E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DEAEE554-4838-478B-BC56-999C4A0E76E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DEAEE554-4838-478B-BC56-999C4A0E76E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DEAEE554-4838-478B-BC56-999C4A0E76E4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8B2FF13E-E0A8-4967-B6B4-934213D26964} = {1C17FD20-0CCE-43B2-9EBA-66910BD90697}
+		{C8D7743B-A869-4029-8061-6E053B1CE3D2} = {1C17FD20-0CCE-43B2-9EBA-66910BD90697}
+		{355159FB-5B4B-478C-A7C7-8576D0BEE955} = {1C17FD20-0CCE-43B2-9EBA-66910BD90697}
+		{DEAEE554-4838-478B-BC56-999C4A0E76E4} = {1C17FD20-0CCE-43B2-9EBA-66910BD90697}
+	EndGlobalSection
+EndGlobal
