@@ -1,0 +1,3 @@
+[submodule "WebBotFramework"]
+	path = WebBotFramework
+	url = https://github.com/vdemartinviude/WebBotFramework.git
