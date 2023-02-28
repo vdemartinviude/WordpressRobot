@@ -26,6 +26,7 @@ public class NavigationStart : BaseState
         {
             Timeout = TimeSpan.FromSeconds(5),
             Url = _inputData.GetStringData("$.Url")
+            //Url = "http://www.uol.com.br"
         });
     }
 }

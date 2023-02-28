@@ -7,6 +7,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\WebBotFramework\JsonDocumentsManager\JsonDocumentsManager.csproj" />
     <ProjectReference Include="..\WebBotFramework\StatesAndEvents\StatesAndEvents.csproj" />
   </ItemGroup>
 
