@@ -50,16 +50,6 @@ public class LoadWpressFile : BaseState
             CancellationToken = token
         });
 
-        //do
-        //{
-        //    resp = await _robot.Execute(new ElementExistRequest
-        //    {
-        //        By = By.XPath("//button[contains(text(),'Continuar') and @class='ai1wm-button-green']"),
-        //        Timeout = TimeSpan.FromSeconds(1)
-        //    });
-        //    token.ThrowIfCancellationRequested();
-        //} while (resp.Status != RobotResponseStatus.ActionRealizedOk);
-
         resp.WebElement!.Click();
 
         await _robot.Execute(new WaitElementExistsOrVanishRequest
@@ -67,28 +57,12 @@ public class LoadWpressFile : BaseState
             By = By.XPath("//p[contains(text(),'Restaurando')]"),
             CancellationToken = token
         });
-        //do
-        //{
-        //    resp = await _robot.Execute(new ElementExistRequest
-        //    {
-        //        By = By.XPath("//p[contains(text(),'Restaurando')]"),
-        //        Timeout = TimeSpan.FromSeconds(1)
-        //    });
-        //} while (resp.Status != RobotResponseStatus.ActionRealizedOk);
 
         resp = await _robot.Execute(new WaitElementExistsOrVanishRequest
         {
             By = By.XPath("//button[contains(text(),'Finalizar')]"),
             CancellationToken = token
         });
-        //do
-        //{
-        //    resp = await _robot.Execute(new ElementExistRequest
-        //    {
-        //        By = By.XPath("//button[contains(text(),'Finalizar')]"),
-        //        Timeout = TimeSpan.FromSeconds(1)
-        //    });
-        //} while (resp.Status != RobotResponseStatus.ActionRealizedOk);
 
         resp.WebElement!.Click();
     }

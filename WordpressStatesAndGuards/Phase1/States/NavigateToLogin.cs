@@ -22,7 +22,7 @@ public class NavigateToLogin : BaseState
     {
         await _robot.Execute(new NavigationRequest
         {
-            Url = "http://localhost:8000/wp-admin"
+            Url = _inputData.GetStringData("$.UrlAdmin")
         });
     }
 }

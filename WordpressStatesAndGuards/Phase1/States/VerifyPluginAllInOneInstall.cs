@@ -53,16 +53,6 @@ public class VerifyPluginAllInOneInstall : BaseState
             CancellationToken = token,
             By = By.XPath("//a[contains(@class,'install-now button') and contains(@data-name,'All-in-One')]"),
         });
-
-        //do
-        //{
-        //    buttonInstall = await _robot.Execute(new ElementExistRequest
-        //    {
-        //        By = By.XPath("//a[contains(@class,'install-now button') and contains(@data-name,'All-in-One')]"),
-        //        Timeout = TimeSpan.FromSeconds(1)
-        //    });
-        //} while (buttonInstall.Status != RobotResponseStatus.ActionRealizedOk);
-
         buttonInstall.WebElement!.Click();
 
         RobotResponse buttonAtivar = await _robot.Execute(new WaitElementExistsOrVanishRequest
@@ -70,14 +60,6 @@ public class VerifyPluginAllInOneInstall : BaseState
             CancellationToken = token,
             By = By.XPath("//a[contains(text(),'Ativar') and contains(@data-name,'All-in-One')]"),
         });
-        //do
-        //{
-        //    buttonAtivar = await _robot.Execute(new ElementExistRequest
-        //    {
-        //        By = By.XPath("//a[contains(text(),'Ativar') and contains(@data-name,'All-in-One')]"),
-        //        Timeout = TimeSpan.FromSeconds(1)
-        //    });
-        //} while (buttonAtivar.Status != RobotResponseStatus.ActionRealizedOk);
 
         buttonAtivar.WebElement!.Click();
     }
